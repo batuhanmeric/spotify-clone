@@ -1,0 +1,27 @@
+.spotify
+  display: flex
+  .sidebar
+    width: 224px
+    display: flex
+    flex-direction: column
+    &::-webkit-scrollbar
+      display: none
+  .playlist
+    &__list
+      height: 50%
+      overflow-y: scroll
+      &::-webkit-scrollbar
+        display: none
+  .main 
+    flex: 1
+    overflow-y: scroll
+    &::-webkit-scrollbar
+      display: none
+    &__header
+      background: linear-gradient(113.83deg, #121212 0.59%, #121212 99.74%)
+  .footer
+    position: fixed
+    bottom: 0
+
+
+   

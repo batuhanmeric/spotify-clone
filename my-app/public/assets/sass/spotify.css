@@ -1,0 +1,50 @@
+.spotify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.spotify .sidebar {
+  width: 224px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.spotify .sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.spotify .playlist__list {
+  height: 50%;
+  overflow-y: scroll;
+}
+
+.spotify .playlist__list::-webkit-scrollbar {
+  display: none;
+}
+
+.spotify .main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  overflow-y: scroll;
+}
+
+.spotify .main::-webkit-scrollbar {
+  display: none;
+}
+
+.spotify .main__header {
+  background: linear-gradient(113.83deg, #121212 0.59%, #121212 99.74%);
+}
+
+.spotify .footer {
+  position: fixed;
+  bottom: 0;
+}
+/*# sourceMappingURL=spotify.css.map */

@@ -1,0 +1,67 @@
+@import variables
+
+.main
+	background: linear-gradient(113.83deg, #121212 0.59%, #121212 99.74%)
+	height: 100%
+	&__header
+		box-sizing: border-box
+		padding: 30.56px 32px 30.56px 42.27px
+		display: flex
+		align-items: center
+		justify-content: space-between
+		&__left-group
+			display: flex
+			align-items: center
+			&__arrow
+				width: 32px
+				height: 32px
+				display: flex
+				align-items: center
+				justify-content: center
+				background: $space-gray
+				border-radius: 50%
+				margin-right: 8px
+				&:last-child
+					margin-right: 0
+		&__profile
+			width: 203px
+			background: rgba(255,255,255,0.08 )
+			border-radius: 27px
+			display: flex
+			align-items: center
+			padding: 8px 25px 8px 7px
+			box-sizing: border-box
+			&__picture
+				display: flex
+				align-items: center
+				margin-right: 8px
+			&__name
+				display: flex
+				align-items: center
+				font-size: 14px
+				font-weight: 500
+				color: $pure-white
+				opacity: 0.6
+	&__current
+		padding: 0 32px
+		box-sizing: border-box
+		margin-top: 54.56px
+		&:last-child
+			margin-bottom: 100px
+		&__card-group
+			display: flex
+			flex-wrap: wrap
+		&__title
+			margin-left: 2px
+			margin-bottom: 9px
+		&__subtitle	
+			margin-bottom: 17px
+
+
+
+.main__current-group
+	height: 752px
+	overflow-y: scroll
+	&::-webkit-scrollbar
+		display: none
+

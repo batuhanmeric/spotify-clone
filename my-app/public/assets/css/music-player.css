@@ -1,0 +1,52 @@
+.music-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.music-player__icon-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.music-player__icon-group__icon {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  opacity: 0.6;
+}
+.music-player__icon-group__icon:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+.music-player__icon-group__icon--margin {
+  margin: 0 33.15px;
+}
+.music-player__timer {
+  display: flex;
+  align-items: center;
+}
+.music-player__timer__start {
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.music-player__timer__line {
+  margin-right: 8px;
+  width: 496px;
+  height: 6px;
+  background: #ffffff;
+  opacity: 0.2;
+  border-radius: 5px;
+}
+.music-player__timer__finish {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=music-player.css.map */

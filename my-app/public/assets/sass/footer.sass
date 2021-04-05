@@ -1,0 +1,47 @@
+@import variables
+
+.footer
+  box-sizing: border-box
+  padding: 16px 24px 24px 24px
+  background: $dark-gray
+  position: relative
+  position: fixed
+  bottom: 0
+  width: 100%
+  
+  &__player
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+  &__song
+    display: flex
+    align-items: center
+    &__pic
+      display: flex
+      align-items: center
+      justify-content: center
+      margin-right: 16px
+    &__info
+      display: flex
+      flex-direction: column
+      &__name
+        margin-bottom: 1px
+        font-size: 14px
+        font-weight: 500
+        line-height: 16.8px
+        color: $pure-white
+      &__artist
+        font-size: 12px
+        font-weight: 400
+        line-height: 14.4px
+        color: rgba(255, 255, 255, 0.7)
+    &__icon-group
+      margin-left: 24px
+      display: flex
+      align-items: center
+      &__icon
+        margin-right: 9.4px
+        cursor: pointer
+        &:last-child
+          margin-right: 0

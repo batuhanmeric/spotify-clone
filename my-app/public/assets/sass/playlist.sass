@@ -1,0 +1,44 @@
+@import variables
+
+.playlist
+  box-sizing: border-box
+  padding-left: 24px
+  padding-right: 19px
+  margin-top: 81px
+  &__title
+    letter-spacing: 0.15em
+  &__search
+    display: block
+    width: 176.77px
+    height: 34.87px 
+    position: relative
+    margin-top: 14.06px
+    &__icon
+      width: 13.98px
+      height: 15.2px
+      background-image: url(../i/search.svg)
+      background-size: cover
+      background-repeat: no-repeat
+      position: absolute
+      top: 10.34px
+      left: 12.51px
+    &__filter
+      width: 14.64px
+      height: 15.16px
+      background-image: url(../i/filter.svg)
+      background-size: cover
+      background-repeat: no-repeat
+      position: absolute
+      top: 9.86px
+      right: 17.45px
+  &__list
+    margin-top: 16.06px
+    &__group
+      &__item
+        margin-bottom: 16px
+        &__link
+          font-size: 14px
+          font-weight: 500
+          opacity: 0.6
+          &:hover
+            opacity: 1

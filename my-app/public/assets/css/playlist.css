@@ -1,0 +1,52 @@
+.playlist {
+  box-sizing: border-box;
+  padding-left: 24px;
+  padding-right: 19px;
+  margin-top: 81px;
+}
+.playlist__title {
+  letter-spacing: 0.15em;
+}
+.playlist__search {
+  display: block;
+  width: 176.77px;
+  height: 34.87px;
+  position: relative;
+  margin-top: 14.06px;
+}
+.playlist__search__icon {
+  width: 13.98px;
+  height: 15.2px;
+  background-image: url(../i/search.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10.34px;
+  left: 12.51px;
+}
+.playlist__search__filter {
+  width: 14.64px;
+  height: 15.16px;
+  background-image: url(../i/filter.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 9.86px;
+  right: 17.45px;
+}
+.playlist__list {
+  margin-top: 16.06px;
+}
+.playlist__list__group__item {
+  margin-bottom: 16px;
+}
+.playlist__list__group__item__link {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+.playlist__list__group__item__link:hover {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=playlist.css.map */

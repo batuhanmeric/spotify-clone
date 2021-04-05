@@ -1,0 +1,35 @@
+.card {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 6px 6px 32px 6px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  transition: all 0.8s ease;
+  cursor: pointer;
+  margin: 8px;
+}
+.card:last-child {
+  margin-right: 0;
+}
+.card:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+.card__title {
+  margin-top: 6px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.card__description {
+  margin-top: 6px;
+  margin-left: 10px;
+  opacity: 0.6;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+/*# sourceMappingURL=card.css.map */

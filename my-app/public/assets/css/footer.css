@@ -1,0 +1,56 @@
+.footer {
+  box-sizing: border-box;
+  padding: 16px 24px 24px 24px;
+  background: #282828;
+  position: relative;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer__player {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer__song {
+  display: flex;
+  align-items: center;
+}
+.footer__song__pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+.footer__song__info {
+  display: flex;
+  flex-direction: column;
+}
+.footer__song__info__name {
+  margin-bottom: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  color: #ffffff;
+}
+.footer__song__info__artist {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer__song__icon-group {
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+.footer__song__icon-group__icon {
+  margin-right: 9.4px;
+  cursor: pointer;
+}
+.footer__song__icon-group__icon:last-child {
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=footer.css.map */

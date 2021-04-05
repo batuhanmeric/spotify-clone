@@ -1,0 +1,31 @@
+@import variables
+
+.nav
+  margin-top: 52.53px
+  &__list
+    padding-left: 24px
+    box-sizing: border-box
+    &__item
+      margin-bottom: 23px
+      display: flex
+      &:hover
+        .nav__list__item__icon
+          opacity: 1
+        .nav__list__item__link
+          opacity: 1
+      &--active
+        .nav__list__item__icon
+          fill: $pure-white
+          opacity: 1
+        .nav__list__item__link
+          opacity: 1
+      &:last-child
+        margin-bottom: 0
+      &__icon
+        margin-right: 17.17px
+        opacity: 0.6
+      &__link
+        opacity: 0.6
+
+      
+
